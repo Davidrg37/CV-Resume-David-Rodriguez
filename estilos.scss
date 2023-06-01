@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: firma;
+    src:url(fonts/AlexanderLettering_PERSONAL_USE_ONLY.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: coolvetic;
+    src:url(fonts/coolvetica\ rg.otf);
+    font-style: normal;
+}
+$font1: "firma";
+$font2: "coolvetic";
+header{
+    background-color: rgba(17, 0, 255, 0.842);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 25px;
+    margin-bottom: 40px;
+        .logo span1 {
+            letter-spacing: 4px;
+            font-family: $font1;
+            font-size: 80px;
+            color: rgb(243, 243, 243);
+            text-shadow: 1px 1px 2px rgb(14, 14, 9), 0 0 5rem rgb(29, 2, 2), 0 0 
+        }
+        .logo span2 {
+            font-family: $font2;
+            font-size: 40px;
+            color: rgb(236, 240, 12);
+            text-shadow: 1px 1px 2px rgb(14, 14, 9), 0 0 5rem rgb(29, 2, 2), 0 0 0.2em rgb(13, 3, 3);
+        }
+    }
+.barra{
+    font-size: 30px;
+    font-family: $font2;
+    margin-top: -40px;
+    padding: -10px;
+    word-spacing: 5px;
+    a {
+        font-size: 30px; 
+    }
+    .w1, .w2, .w3, .w4, .w5 {
+        margin-right: 20px;
+    }
+}
+.sec{
+    background-color: #772fe3;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    /* .sec{ esta class es para darle formato a las secciones creadas para el menu debajo*/
+    background-color: rgb(72, 39, 217);
+    color: rgb(252, 251, 251);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(14, 14, 9), 0 0 5rem rgb(14, 2, 2), 0 0 0.2em rgb(251, 248, 86);
+    font-family: $font2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.cartas {
+    font-family: $font2;
+    margin-top: 10px;
+    border: 3px solid !important;
+    h5 {
+        font-size: 40px;
+    }
+    p {
+        margin-top: 10px;
+    }
+    dato1 {
+        font-size: 27px;
+        margin: auto;
+    }
+    dato2 {
+        font-size: 27px;
+        color: rgba(236, 4, 4, 0.845);
+
+        margin: auto;
+    }
+    dato3 {
+        font-size: 27px;
+        color: rgba(22, 21, 21, 0.845);
+
+        margin: auto;
+    }
+    dato4 {
+        font-size: 27px;
+        justify-content: center;
+        margin: auto;
+        word-spacing: 2.5px;
+        color: rgba(236, 4, 4, 0.845);
+
+    }
+    .linea {
+        border-bottom:  solid black;
+    }
+    ul {
+        font-size: 27px;
+        margin-left: 20px;
+        list-style: circle;
+        padding: 10px;
+        color: rgba(236, 4, 4, 0.845);
+
+        li{
+        margin-top: 15px;
+        }
+    }
+}
+.recorrido {
+    background-color: #fefdff;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23c6bed2' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    p {
+        font-family: $font2;
+        font-size: 28px;
+        color: rgba(22, 21, 21, 0.845);
+        padding: 10px;
+        margin-bottom: -5px;
+        exp1{
+            font-size: 30px;
+            color: rgb(27, 2, 139);
+            font-style: italic;
+        }
+        exp2{
+            @extend exp1;
+        }
+        exp3{
+            @extend exp1;
+        }
+    }
+    .pl {
+        text-indent: 40px;
+    }
+    ul {
+        font-size: 30px;
+        font-family: $font2;
+        color: rgb(27, 2, 139);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        list-style: disclosure-closed;
+        li{
+            margin-top: 15px;
+            margin-left: 25px;
+            font-family: $font2;
+            // margin-bottom: 10px;
+            }
+    }
+    .up {
+        margin-bottom: 15px;
+    }
+    .redes {
+
+        font-family: $font2;
+        font-size: 25px;
+        margin-top: 10px;
+        letter-spacing: 5px;
+        color: rgb(27, 2, 139);
+        text-transform: uppercase;
+        word-spacing: 3px;
+        i {
+            size: 10px;
+            color: rgb(27, 2, 139);
+            text-transform: uppercase;
+        }
+        li {
+            list-style: none;
+            color: rgb(27, 2, 139);
+            a {
+                color: rgb(27, 2, 139);
+            }
+        }
+    }
+}
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
