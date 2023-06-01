@@ -146,6 +146,11 @@ header .logo span2 {
   margin-bottom: 15px;
 }
 .recorrido .redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: space-between;
   font-family: "coolvetic";
   font-size: 25px;
   margin-top: 10px;
@@ -165,6 +170,23 @@ header .logo span2 {
 }
 .recorrido .redes li a {
   color: rgb(27, 2, 139);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "coolvetic";
+  margin-bottom: 20px;
+}
+footer p {
+  margin-top: 10px;
+  color: rgba(22, 21, 21, 0.845);
+}
+footer p dato2 {
+  font-size: 27px;
+  color: rgba(236, 4, 4, 0.845);
+  margin: auto;
 }
 
 .subir {
